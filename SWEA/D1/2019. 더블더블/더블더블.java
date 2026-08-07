@@ -8,10 +8,9 @@ class Solution
 		int N = sc.nextInt();
         
         int result = 1;
-        System.out.print(1 + " ");
-        
-        for (int  i = 0; i < N; i++) {
-        	result *= 2;
+        System.out.print(result + " ");
+        for(int i = 0; i < N; i++) {
+            result *= 2;
             System.out.print(result + " ");
         }
 	}
