@@ -7,11 +7,10 @@ class Solution
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
         
-        int result = 1;
-        System.out.print(result + " ");
-        for(int i = 0; i < N; i++) {
-            result *= 2;
-            System.out.print(result + " ");
+        int num = 1;
+        for (int i = 0; i <= N; i++){
+            System.out.print(num + " ");
+            num *= 2;
         }
 	}
 }
