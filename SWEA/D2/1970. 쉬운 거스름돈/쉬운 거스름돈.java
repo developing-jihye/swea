@@ -14,11 +14,10 @@ class Solution
 		{
 			System.out.println("#" + test_case);
 			int N = sc.nextInt();
-			int money = N;
 			for(int w: arr) {
-				int count = money / w;
+				int count = N / w;
 				System.out.print(count + " ");
-				money -= w * count;
+				N -= w * count;
 			}
             System.out.println();
 		}
